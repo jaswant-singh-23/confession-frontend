@@ -42,6 +42,11 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li class="nav-item me-3">
+                    <Link class="nav-link " aria-current="page" to="/profile">
+                      Profile
+                    </Link>
+                  </li>
+                  <li class="nav-item me-3">
                     <a class="nav-link " aria-current="page" href="#">
                       Contact
                     </a>
