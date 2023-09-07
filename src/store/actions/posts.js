@@ -9,7 +9,7 @@ const get_Posts = (data) => ({
 export const getPosts = (userId) => {
   return async (dispatch) => {
     axios
-      .get("http://localhost:7000/api/admin/get-posts/")
+      .get("http://localhost:7000/api/posts/get-posts/:authorId")
       .then((res) => {
         console.log(res.data)
         dispatch(get_Posts(res.data));

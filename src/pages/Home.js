@@ -7,9 +7,9 @@ import { useDispatch } from "react-redux";
 import { getPosts } from "../store/actions/posts";
 
 const Home = () => {
-  const dispatch = useDispatch()
-
-  dispatch(getPosts("1"))
+  const dispatch = useDispatch();
+  const userId = "64f6ffd79a3f628e2d8fce2f";
+  dispatch(getPosts(userId));
   return (
     <div>
       <Navbar />
