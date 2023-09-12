@@ -175,3 +175,83 @@
   border: 1px solid var(--white);
 }
 /* Profile End */
+/* Add New Post Start */
+.add-posts-container .add-posts-head-box {
+  background-color: var(--pink2);
+  padding-bottom: 40px;
+  justify-content: center;
+  display: grid;
+  margin-bottom: 60px;
+}
+.add-posts-container .add-posts-head-box .add-posts-title {
+  text-align: center;
+  color: var(--white);
+}
+.add-posts-container .add-posts-form-box {
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: var(--pink3);
+}
+.add-posts-container .add-posts-form-box .input-box {
+  display: flex;
+  margin-bottom: 30px;
+}
+.add-posts-container .add-posts-form-box .input-box label {
+  width: 14%;
+}
+.add-posts-container .add-posts-form-box .input-box input,
+.add-posts-container .add-posts-form-box .input-box textarea {
+  width: 86%;
+}
+
+.add-posts-container .add-posts-form-box .submit-btn-box button {
+  background-color: var(--white);
+  color: var(--black);
+  border: none;
+  padding: 5px 30px;
+}
+.add-posts-container .add-posts-form-box .preview-upload-posts {
+  width: 100%;
+  height: 120px;
+  border: 1px solid;
+  margin-bottom: 30px;
+  display: flex;
+}
+.add-posts-container
+  .add-posts-form-box
+  .preview-upload-posts
+  .preview-img-box {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin: 4px;
+}
+.add-posts-container
+  .add-posts-form-box
+  .preview-upload-posts
+  .preview-img-box
+  img {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+.add-posts-container .preview-upload-posts .preview-img-box img:hover {
+  opacity: 0.4;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.add-posts-container
+  .preview-upload-posts
+  .preview-img-box:hover
+  .remove-img-icon {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.add-posts-container .preview-upload-posts .preview-img-box .remove-img-icon {
+  display: none;
+}
+/* Add New Post End */
